@@ -5,7 +5,7 @@ theme: hugo-refresh
 
 DefaultContentLanguage: en
 disableKinds: ["sitemap", "RSS"]
-assetDir: public/
+assetDir: assets/
 blackfriday:
   hrefTargetBlank: true
 
