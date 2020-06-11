@@ -1,4 +1,0 @@
-baseURL = "https://blog.hasiotis.dev/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
