@@ -1,0 +1,7 @@
+# Build output
+**/.cache/**
+deploy_logs/**
+
+# Statically generated HTML
+public/**
+resources/**
