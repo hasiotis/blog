@@ -21,34 +21,21 @@ params:
   jsIntegrity: true
   mainColour: "#F39200"
 
-  # summary options
   summary:
-    # option to specify the default image in the summary list
-    # the starting folder is configure in "assetDir" of this file
     defaultImage : "/images/default_summary.jpg"
-  # loading options
   loading:
-    # option to specify the loading image
-    # the starting folder is configure in "assetDir" of this file
     image: "/images/loaders/rings.svg"
 
-  # main pages options
   mainPage:
-    # option to specify the main font of the theme
     fontFamily: "Open Sans"
 
-  # sidebar options
   sidebar:
-    # option to specify the logo of the sidebar
-    # the starting folder is configure in "assetDir" of this file
     logo: "/images/refresh-square.svg"
-    # option to specify the font of the sidebar
-    fontFamily: "Open Sans" # "Open Sans"
+    fontFamily: "Open Sans"
 
   navbar:
     fontFamily: "Open Sans"
 
-  # 404 page options
   pagNotFound:
     image: "/images/avataaars_404.png"
     title: 404 Page Not Found :(
@@ -59,7 +46,7 @@ params:
     linkPosition: "menu"
     title: Nikos Chasiotis
     subtitle: Personal website and blog
-    image: "/images/avataaars.png" # worker.svg
+    image: "/images/avataaars.png"
     imageWidth: 500px
 
   footer:
