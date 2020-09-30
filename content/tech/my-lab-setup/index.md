@@ -8,7 +8,7 @@ summaryImage: "summary.jpg"
 tags: ["tech", "virtualisation"]
 ---
 
-Here how I setup a virtualised environment at home to be able to easily spawn VMs and try out new tools, or perfect my ansible roles. First thing
+Here how I set up a virtualized environment at home to be able to easily spawn VMs and try out new tools, or perfect my ansible roles. First thing
 first, we need some hardware. I bought some years ago a [shuttle xpc nano](http://global.shuttle.com/products/productsDetail?productId=1941). I
 made sure to have as much RAM as possible and also attached my old ssd disk.
 
@@ -27,7 +27,7 @@ Since I use Debian 10 and already had pdns-recursor in place I had to install th
 $ apt-get install pdns-server pdns-backend-sqlite3
 {{< /code >}}
 
-Below is part of the */etc/powerdns/pdns.conf* where we make sure PowerDNS it available on port 5300. This way we still use pdns-recursor for our DNS requests, but only for
+Below is part of the */etc/powerdns/pdns.conf* where we make sure PowerDNS is available on port 5300. This way we still use pdns-recursor for our DNS requests, but only for
 the *pve.loc* we send requests to pdns. Sure *.loc* is not a good idea but is small and sweet.
 
 {{< code language="shell" line-numbers="false">}}
