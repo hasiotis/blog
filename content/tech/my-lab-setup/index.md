@@ -1,7 +1,7 @@
 ---
 title: "My Virtualisation HomeLab"
 date: 2020-06-11
-draft: true
+draft: false
 summary: "Spawning VMs fast and easy"
 keepImageRatio: true
 summaryImage: "summary.jpg"
@@ -149,3 +149,5 @@ providers:
     ipam:
       subnets: 192.168.33.0/24
 {{< /code >}}
+
+So we are now ready to use our setup! On the next post.
